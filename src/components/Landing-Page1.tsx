@@ -119,7 +119,7 @@ const LandingPage1 = ({ parentCon }: LandingPage1Props) => {
         </div>
       </section>
       <section ref={section3nd} className="absolute top-0 h-dvh w-full flex justify-end items-end z-10">
-        <div className="relative h-[24] w-[16rem] m-[2rem] flex items-center justify-center">
+        <div className="absolute bottom-0 h-[24] w-[16rem] flex items-center justify-center">
           <img src={kingspade} alt="" className="object-contain"/>
         </div>
       </section>
