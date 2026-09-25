@@ -12,11 +12,6 @@ const LandingPage2 = () => {
     const headerRef = useRef<HTMLElement>(null);
     const splitText1 = useRef<HTMLDivElement>(null);
     const splitText2 = useRef<HTMLDivElement>(null);
-    const castle1Ref1 = useRef<HTMLDivElement>(null);
-    const castle1Ref2 = useRef<HTMLDivElement>(null);
-    const castle1Ref3 = useRef<HTMLDivElement>(null);
-    const sectionRef = useRef<HTMLElement>(null);
-    const imagesTriggerRef = useRef<HTMLDivElement>(null);
     const castle_img1 = useRef<HTMLDivElement>(null)
     const castle_img2 = useRef<HTMLDivElement>(null);
     const castle_img3 = useRef<HTMLDivElement>(null);
