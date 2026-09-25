@@ -3,7 +3,7 @@ import gsap from "gsap"
 import { ScrollTrigger, SplitText } from "gsap/all"
 import { useRef } from "react";
 import icon1 from "../assets/icon/r_icon.png"
-import kingspade  from "../assets/image/King_Spades.jpeg"
+// import kingspade  from "../assets/image/King_Spades.jpeg"
 // Landing-Page1.tsx
 type LandingPage1Props = {
   parentCon: HTMLDivElement | null;
