@@ -3,7 +3,7 @@ import gsap from "gsap"
 import { ScrollTrigger, SplitText } from "gsap/all"
 import { useRef } from "react";
 import icon1 from "../assets/icon/r_icon.png"
-// import kingspade  from "../assets/image/King_Spades.jpeg"
+import kingspade  from "../assets/image/King_Spades.jpeg"
 // Landing-Page1.tsx
 type LandingPage1Props = {
   parentCon: HTMLDivElement | null;
@@ -120,7 +120,7 @@ const LandingPage1 = ({ parentCon }: LandingPage1Props) => {
       </section>
       <section ref={section3nd} className="absolute top-0 h-dvh w-full flex justify-end items-end z-10">
         <div className="absolute bottom-0 h-89 w-[16rem] flex items-center justify-center bg-[red] m-4">
-          
+          <img src={kingspade} alt="abc" />
         </div>
       </section>
     </div>
