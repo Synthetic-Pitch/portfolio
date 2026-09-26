@@ -12,8 +12,7 @@ const LandingPage4 = () => {
     const stareCon = useRef<HTMLDivElement>(null);
     const parentCon12 = useRef<HTMLDivElement>(null);
     const paragraph1 = useRef<HTMLParagraphElement>(null);
-    const img1con = useRef<HTMLDivElement>(null)
-    const imgCon = useRef(null)
+    const imgCon = useRef(null);
 
     useGSAP(()=>{
         const TL = gsap.timeline({
