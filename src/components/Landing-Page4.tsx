@@ -34,7 +34,7 @@ const LandingPage4 = () => {
         },{
             rotateY:0,
             left:0,
-            duration:.2,
+         
         },"0")
     },[])
 
