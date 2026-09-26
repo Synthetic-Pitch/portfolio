@@ -11,6 +11,8 @@ gsap.registerPlugin(ScrollTrigger)
 import { useRef, useState } from "react";
 import LandingPage2 from "../components/Landing-Page2";
 import LandingPage3 from "../components/Landing-Page3";
+import LandingPage4 from "../components/Landing-Page4";
+import LandingPage5 from "../components/Landing-Page5";
 
 const Landing = () => {
     const [parent, setParent] = useState<HTMLDivElement | null>(null);
@@ -59,6 +61,8 @@ const Landing = () => {
         <LandingPage1 parentCon={parent}/>
         <LandingPage2/>
         <LandingPage3/>
+        <LandingPage4/>
+        <LandingPage5/>
     </div>
   );
 };
