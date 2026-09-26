@@ -40,9 +40,11 @@ const LandingPage3 = () => {
         invalidateOnRefresh:true
       }
     })
-    angelConTL.to(angelImg.current, {
-      width: "50dvw",
+    angelConTL.fromTo(angelImg.current, {
+      width: "30dvw",
       duration: 1
+    },{
+      width: "50dvw",
     }, "0")
       .to(image1Con.current, {
         opacity: 1,
